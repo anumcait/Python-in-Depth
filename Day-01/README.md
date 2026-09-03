@@ -1,4 +1,4 @@
-# 🐍 Mission Python 100 — Day 01
+# 🐍 Python100 — Day 01
 
 ## Python, Programming & the Developer Mindset
 
