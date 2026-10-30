@@ -14,6 +14,7 @@ A free, GitHub-friendly 100-day Python learning course. Start with `day-01.md`, 
 | 91–100 | Data, ML, GenAI, Docker, CI/CD, AWS and capstone |
 
 ## Contents
+- [Day 01: Introduction](day-01.md)
 - [Day 02: Installing Python and VS Code](day-02.md)
 - [Day 03: Python REPL and first programs](day-03.md)
 - [Day 04: Pythonic style and PEP 8](day-04.md)

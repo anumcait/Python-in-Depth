@@ -4,6 +4,29 @@
 
 > **Goal:** Learn this topic from first principles, run an example yourself, inspect its behavior, and connect it to real application engineering.
 
+| | |
+|---|---|
+| 📚 **Series** | Mission Python 100 |
+| 🗓️ **Day** | 84 |
+| 🎯 **Goal** | Learn this topic from first principles, run an example yourself, inspect its behavior, and connect it to real application engineering. |
+| 🔗 **Study with** | [`README.md`](README.md) |
+
+---
+
+## 📑 Contents
+1. [Why this topic matters](#1-why-this-topic-matters)
+1. [The central concept](#2-the-central-concept)
+1. [Guided example — read before running](#3-guided-example-read-before-running)
+1. [What happens internally?](#4-what-happens-internally)
+1. [Practical lab — follow, modify, verify](#5-practical-lab-follow-modify-verify)
+1. [Real-world application connection](#6-real-world-application-connection)
+1. [Pythonic design checklist](#7-pythonic-design-checklist)
+1. [Debugging practice](#8-debugging-practice)
+1. [Mini-project challenge](#9-mini-project-challenge)
+1. [Interview and communication practice](#10-interview-and-communication-practice)
+1. [Day 84 completion checklist](#11-day-84-completion-checklist)
+1. [Further study](#12-further-study)
+
 ---
 
 ## 1. Why this topic matters
@@ -118,3 +141,10 @@ git commit -m "day84: study uber-like app: ride domain"
 - [TutorialsPoint Python tutorial](https://www.tutorialspoint.com/python/index.htm)
 
 > **Remember:** Understanding, testing and explaining one feature thoroughly is better than memorizing many features without practice.
+
+---
+
+| ⬅️ Previous | ➡️ Next |
+|---|---|
+| [Day 83](Day83-Fashion%20app-payments%20and%20orders.md) | [Day 85](Day85-Uber-like%20app-fare%20calculation.md) |
+| 🏁 **Day 84 complete** | **Return to [`README.md`](README.md)** |

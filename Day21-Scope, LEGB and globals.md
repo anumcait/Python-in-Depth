@@ -4,6 +4,29 @@
 
 > **Goal:** Learn this topic from first principles, run an example yourself, inspect its behavior, and connect it to real application engineering.
 
+| | |
+|---|---|
+| 📚 **Series** | Mission Python 100 |
+| 🗓️ **Day** | 21 |
+| 🎯 **Goal** | Learn this topic from first principles, run an example yourself, inspect its behavior, and connect it to real application engineering. |
+| 🔗 **Study with** | [`README.md`](README.md) |
+
+---
+
+## 📑 Contents
+1. [Why this topic matters](#1-why-this-topic-matters)
+1. [The central concept](#2-the-central-concept)
+1. [Guided example — read before running](#3-guided-example-read-before-running)
+1. [What happens internally?](#4-what-happens-internally)
+1. [Practical lab — follow, modify, verify](#5-practical-lab-follow-modify-verify)
+1. [Real-world application connection](#6-real-world-application-connection)
+1. [Pythonic design checklist](#7-pythonic-design-checklist)
+1. [Debugging practice](#8-debugging-practice)
+1. [Mini-project challenge](#9-mini-project-challenge)
+1. [Interview and communication practice](#10-interview-and-communication-practice)
+1. [Day 21 completion checklist](#11-day-21-completion-checklist)
+1. [Further study](#12-further-study)
+
 ---
 
 ## 1. Why this topic matters
@@ -120,3 +143,10 @@ git commit -m "day21: study scope, legb and globals"
 - [TutorialsPoint Python tutorial](https://www.tutorialspoint.com/python/index.htm)
 
 > **Remember:** Understanding, testing and explaining one feature thoroughly is better than memorizing many features without practice.
+
+---
+
+| ⬅️ Previous | ➡️ Next |
+|---|---|
+| [Day 20](Day20-Parameters%20and%20argument%20passing.md) | [Day 22](Day22-Modules%20and%20imports.md) |
+| 🏁 **Day 21 complete** | **Return to [`README.md`](README.md)** |
