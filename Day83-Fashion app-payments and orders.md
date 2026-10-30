@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 83: Fashion app: payments and orders](images/day-83.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Fashion app: payments and orders** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Payments need idempotency, reconciliation and careful state transitions.

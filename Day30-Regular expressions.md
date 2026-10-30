@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 30: Regular expressions](images/day-30.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Regular expressions** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Regex matches patterns; avoid using it when straightforward string methods suffice.

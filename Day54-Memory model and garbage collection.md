@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 54: Memory model and garbage collection](images/day-54.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Memory model and garbage collection** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. References keep objects alive; collection does not prevent unbounded memory retention.

@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 84: Uber-like app: ride domain](images/day-84.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Uber-like app: ride domain** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Define passenger, driver, vehicle, trip, location and payment entities.

@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 25: Exceptions and tracebacks](images/day-25.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Exceptions and tracebacks** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Catch expected failures narrowly; preserve unexpected failures for debugging.

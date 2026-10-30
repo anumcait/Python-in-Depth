@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 04: Pythonic style and PEP 8](images/day-04.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Pythonic style and PEP 8** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Consistent formatting, descriptive names and simple control flow improve maintainability.

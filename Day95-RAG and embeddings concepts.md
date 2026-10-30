@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 95: RAG and embeddings concepts](images/day-95.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **RAG and embeddings concepts** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Retrieval supplies relevant context; production RAG needs chunking and evaluation.

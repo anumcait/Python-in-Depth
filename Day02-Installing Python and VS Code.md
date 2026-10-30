@@ -6,6 +6,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 02: Installing Python and VS Code](images/day-02.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Installing Python and VS Code** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. A reproducible development environment starts with knowing which interpreter executes your code.

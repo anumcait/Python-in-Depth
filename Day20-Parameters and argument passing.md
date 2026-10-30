@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 20: Parameters and argument passing](images/day-20.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Parameters and argument passing** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Arguments bind to local parameter names; avoid mutable default arguments.

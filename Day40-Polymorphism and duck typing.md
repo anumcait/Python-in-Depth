@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 40: Polymorphism and duck typing](images/day-40.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Polymorphism and duck typing** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Behavior matters more than a declared inheritance tree in duck typing.

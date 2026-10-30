@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 05: Python syntax, indentation and comments](images/day-05.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Python syntax, indentation and comments** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Indentation controls which statements belong to a block; comments explain intent.

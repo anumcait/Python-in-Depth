@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 22: Modules and imports](images/day-22.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Modules and imports** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Modules provide namespaces; imports execute and cache modules within a process.

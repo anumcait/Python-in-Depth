@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 61: Asyncio and coroutines](images/day-61.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Asyncio and coroutines** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Asyncio cooperatively schedules tasks at await points; avoid blocking calls.

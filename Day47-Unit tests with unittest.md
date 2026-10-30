@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 47: Unit tests with unittest](images/day-47.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Unit tests with unittest** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Tests document expected behavior and protect against regressions.

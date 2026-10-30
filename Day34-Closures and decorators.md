@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 34: Closures and decorators](images/day-34.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Closures and decorators** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Closures retain bindings from enclosing scopes; decorators wrap behavior.

@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 44: Assertions and defensive validation](images/day-44.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Assertions and defensive validation** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Use explicit validation for external input; assertions are not a substitute.

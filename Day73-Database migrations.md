@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 73: Database migrations](images/day-73.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Database migrations** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Migrations version schema changes; plan rollback and backward compatibility.

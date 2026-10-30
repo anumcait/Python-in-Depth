@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 65: Pydantic and request validation](images/day-65.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Pydantic and request validation** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Validate data at system boundaries and return useful errors.

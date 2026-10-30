@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 16: Sets and uniqueness](images/day-16.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Sets and uniqueness** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Sets deduplicate hashable elements and support fast membership checks.

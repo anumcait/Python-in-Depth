@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 69: Relational database fundamentals](images/day-69.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Relational database fundamentals** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Tables, keys and constraints model persistent business data.

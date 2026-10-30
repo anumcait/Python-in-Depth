@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 18: Slicing and sequence operations](images/day-18.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Slicing and sequence operations** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Slice end indexes are exclusive; negative steps traverse backward.

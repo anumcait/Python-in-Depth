@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 37: Instance, class and static methods](images/day-37.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Instance, class and static methods** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Choose instance, class or static methods based on which state they need.

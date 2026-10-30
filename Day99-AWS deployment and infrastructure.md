@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 99: AWS deployment and infrastructure](images/day-99.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **AWS deployment and infrastructure** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Design IAM, networking, scaling, logs, backups and cost before provisioning.

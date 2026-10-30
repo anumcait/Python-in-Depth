@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 33: Lambda and higher-order functions](images/day-33.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Lambda and higher-order functions** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Functions are first-class objects; use lambda for short expressions only.

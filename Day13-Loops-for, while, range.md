@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 13: Loops: for, while, range](images/day-13.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Loops: for, while, range** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. A for loop traverses an iterable; while repeats while its condition is true.

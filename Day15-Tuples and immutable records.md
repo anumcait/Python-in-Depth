@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 15: Tuples and immutable records](images/day-15.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Tuples and immutable records** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Tuples are immutable sequences; unpacking assigns elements to names.

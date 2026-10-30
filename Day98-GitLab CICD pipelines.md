@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 98: GitLab CI/CD pipelines](images/day-98.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **GitLab CI/CD pipelines** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Separate quality gates from deployment; protect production credentials.

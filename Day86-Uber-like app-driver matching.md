@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 86: Uber-like app: driver matching](images/day-86.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Uber-like app: driver matching** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Matching must account for availability, proximity and race conditions.

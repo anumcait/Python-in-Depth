@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 46: Debugging with pdb and tracebacks](images/day-46.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Debugging with pdb and tracebacks** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Reproduce, isolate, inspect, fix and verify; debugger breakpoints reveal state.

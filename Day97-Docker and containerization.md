@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 97: Docker and containerization](images/day-97.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Docker and containerization** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Images package code and dependencies; run as non-root and minimize attack surface.

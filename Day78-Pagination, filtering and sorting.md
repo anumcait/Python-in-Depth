@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 78: Pagination, filtering and sorting](images/day-78.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Pagination, filtering and sorting** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Bound response size; stable ordering avoids missing or duplicated records.

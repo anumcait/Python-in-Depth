@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 92: Machine learning foundations](images/day-92.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Machine learning foundations** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Separate features, targets, train/validation/test sets and evaluation metrics.

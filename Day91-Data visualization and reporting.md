@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 91: Data visualization and reporting](images/day-91.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Data visualization and reporting** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Choose visual encodings that match the question and data distribution.

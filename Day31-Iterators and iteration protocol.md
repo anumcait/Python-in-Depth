@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 31: Iterators and iteration protocol](images/day-31.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Iterators and iteration protocol** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Iterators supply values one at a time through __next__.

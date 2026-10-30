@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 58: Stacks, queues and heaps](images/day-58.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Stacks, queues and heaps** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Use deque for efficient queue operations; heapq for priority queues.

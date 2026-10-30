@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 74: Caching and Redis concepts](images/day-74.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Caching and Redis concepts** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Caches trade freshness for speed; define TTL and invalidation strategies.

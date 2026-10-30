@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 77: API error handling and contracts](images/day-77.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **API error handling and contracts** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Expose stable error schemas; never leak internal stack traces to clients.

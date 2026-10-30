@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 17: Dictionaries and key-value data](images/day-17.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Dictionaries and key-value data** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Dictionaries map hashable keys to values and preserve insertion order.

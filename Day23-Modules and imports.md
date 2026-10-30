@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 23: Packages and project structure](images/day-23.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Packages and project structure** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Packages organize modules; keep imports explicit and project structure discoverable.

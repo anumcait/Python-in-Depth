@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 96: AI agents and tool calling](images/day-96.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **AI agents and tool calling** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Agents select tools; permissions and human approval bound their actions.

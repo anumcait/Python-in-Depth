@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 14: Lists and mutable sequences](images/day-14.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Lists and mutable sequences** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Lists are mutable ordered collections and can contain mixed object types.

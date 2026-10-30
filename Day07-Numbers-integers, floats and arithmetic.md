@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 07: Numbers: integers, floats and arithmetic](images/day-07.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Numbers: integers, floats and arithmetic** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Use Decimal for exact decimal financial calculations rather than binary floating point.

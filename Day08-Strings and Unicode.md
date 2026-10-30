@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 08: Strings and Unicode](images/day-08.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Strings and Unicode** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Python strings are immutable Unicode sequences; indexing returns a one-character string.

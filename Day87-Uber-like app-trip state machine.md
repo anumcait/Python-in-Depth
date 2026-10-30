@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 87: Uber-like app: trip state machine](images/day-87.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Uber-like app: trip state machine** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Explicit transition rules prevent impossible trip states.

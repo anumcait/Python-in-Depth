@@ -29,6 +29,10 @@
 
 ---
 
+## 🗺️ Visual overview
+
+![Lesson map — Day 56: Algorithms and Big-O](images/day-56.png)
+
 ## 1. Why this topic matters
 
 A Python program grows from expressions and objects into functions, modules, services and systems. **Algorithms and Big-O** is one of those building blocks. It is useful to distinguish *what the feature does* from *why we choose it*. Big-O describes scaling; algorithm choice matters as data grows.
