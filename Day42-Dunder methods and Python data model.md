@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 42: Dunder methods and Python data model](images/day-42.png)
+![](images/day-042.png)
 
 ## 1. Why this topic matters
 

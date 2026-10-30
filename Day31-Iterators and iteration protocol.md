@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 31: Iterators and iteration protocol](images/day-31.png)
+![](images/day-031.png)
 
 ## 1. Why this topic matters
 

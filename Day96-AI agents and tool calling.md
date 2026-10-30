@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 96: AI agents and tool calling](images/day-96.png)
+![](images/day-096.png)
 
 ## 1. Why this topic matters
 

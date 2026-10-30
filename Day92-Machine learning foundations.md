@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 92: Machine learning foundations](images/day-92.png)
+![](images/day-092.png)
 
 ## 1. Why this topic matters
 

@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 77: API error handling and contracts](images/day-77.png)
+![](images/day-077.png)
 
 ## 1. Why this topic matters
 

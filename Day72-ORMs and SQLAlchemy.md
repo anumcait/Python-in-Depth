@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 72: ORMs and SQLAlchemy](images/day-72.png)
+![](images/day-072.png)
 
 ## 1. Why this topic matters
 

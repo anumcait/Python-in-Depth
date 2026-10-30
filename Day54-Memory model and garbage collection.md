@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 54: Memory model and garbage collection](images/day-54.png)
+![](images/day-054.gif)
 
 ## 1. Why this topic matters
 

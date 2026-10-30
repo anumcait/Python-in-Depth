@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 41: Dataclasses and enums](images/day-41.png)
+![](images/day-041.png)
 
 ## 1. Why this topic matters
 

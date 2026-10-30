@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 93: Scikit-learn workflow](images/day-93.png)
+![](images/day-093.png)
 
 ## 1. Why this topic matters
 

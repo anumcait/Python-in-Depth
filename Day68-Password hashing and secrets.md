@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 68: Password hashing and secrets](images/day-68.png)
+![](images/day-068.png)
 
 ## 1. Why this topic matters
 

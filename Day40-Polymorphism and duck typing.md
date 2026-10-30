@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 40: Polymorphism and duck typing](images/day-40.png)
+![](images/day-040.png)
 
 ## 1. Why this topic matters
 

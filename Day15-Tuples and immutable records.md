@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 15: Tuples and immutable records](images/day-15.png)
+![](images/day-015.png)
 
 ## 1. Why this topic matters
 

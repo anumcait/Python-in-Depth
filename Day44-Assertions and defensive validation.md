@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 44: Assertions and defensive validation](images/day-44.png)
+![](images/day-044.png)
 
 ## 1. Why this topic matters
 

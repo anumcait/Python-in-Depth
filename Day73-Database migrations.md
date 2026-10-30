@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 73: Database migrations](images/day-73.png)
+![](images/day-073.png)
 
 ## 1. Why this topic matters
 

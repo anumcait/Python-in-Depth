@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 05: Python syntax, indentation and comments](images/day-05.png)
+![](images/day-005.png)
 
 ## 1. Why this topic matters
 

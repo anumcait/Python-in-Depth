@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 74: Caching and Redis concepts](images/day-74.png)
+![](images/day-074.png)
 
 ## 1. Why this topic matters
 

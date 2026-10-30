@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 89: Data analysis with NumPy](images/day-89.png)
+![](images/day-089.png)
 
 ## 1. Why this topic matters
 

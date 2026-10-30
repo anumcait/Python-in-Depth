@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 75: Background jobs and queues](images/day-75.png)
+![](images/day-075.png)
 
 ## 1. Why this topic matters
 

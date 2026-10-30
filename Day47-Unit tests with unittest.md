@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 47: Unit tests with unittest](images/day-47.png)
+![](images/day-047.png)
 
 ## 1. Why this topic matters
 

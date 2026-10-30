@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 57: Searching and sorting](images/day-57.png)
+![](images/day-057.png)
 
 ## 1. Why this topic matters
 

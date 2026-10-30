@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 50: Virtual environments and packaging](images/day-50.png)
+![](images/day-050.png)
 
 ## 1. Why this topic matters
 

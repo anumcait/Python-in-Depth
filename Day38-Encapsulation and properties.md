@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 38: Encapsulation and properties](images/day-38.png)
+![](images/day-038.png)
 
 ## 1. Why this topic matters
 

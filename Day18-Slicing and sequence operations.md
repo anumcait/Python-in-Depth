@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 18: Slicing and sequence operations](images/day-18.png)
+![](images/day-018.png)
 
 ## 1. Why this topic matters
 

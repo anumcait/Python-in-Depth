@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 22: Modules and imports](images/day-22.png)
+![](images/day-022.png)
 
 ## 1. Why this topic matters
 

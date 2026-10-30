@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 76: Application layering and clean architecture](images/day-76.png)
+![](images/day-076.png)
 
 ## 1. Why this topic matters
 

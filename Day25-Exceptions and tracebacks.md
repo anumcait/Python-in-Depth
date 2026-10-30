@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 25: Exceptions and tracebacks](images/day-25.png)
+![](images/day-025.png)
 
 ## 1. Why this topic matters
 

@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 98: GitLab CI/CD pipelines](images/day-98.png)
+![](images/day-098.png)
 
 ## 1. Why this topic matters
 

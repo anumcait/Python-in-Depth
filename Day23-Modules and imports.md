@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 23: Packages and project structure](images/day-23.png)
+![](images/day-023.png)
 
 ## 1. Why this topic matters
 

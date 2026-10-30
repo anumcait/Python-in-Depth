@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 04: Pythonic style and PEP 8](images/day-04.png)
+![](images/day-004.png)
 
 ## 1. Why this topic matters
 

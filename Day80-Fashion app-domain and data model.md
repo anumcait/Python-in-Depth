@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 80: Fashion app: domain and data model](images/day-80.png)
+![](images/day-080.png)
 
 ## 1. Why this topic matters
 

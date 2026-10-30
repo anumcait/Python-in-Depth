@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 55: Performance and profiling](images/day-55.png)
+![](images/day-055.png)
 
 ## 1. Why this topic matters
 

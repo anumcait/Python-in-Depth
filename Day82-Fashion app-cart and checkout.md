@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 82: Fashion app: cart and checkout](images/day-82.png)
+![](images/day-082.png)
 
 ## 1. Why this topic matters
 

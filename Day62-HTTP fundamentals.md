@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 62: HTTP fundamentals](images/day-62.png)
+![](images/day-062.png)
 
 ## 1. Why this topic matters
 

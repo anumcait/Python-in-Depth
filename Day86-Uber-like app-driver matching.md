@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 86: Uber-like app: driver matching](images/day-86.png)
+![](images/day-086.png)
 
 ## 1. Why this topic matters
 

@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 65: Pydantic and request validation](images/day-65.png)
+![](images/day-065.png)
 
 ## 1. Why this topic matters
 

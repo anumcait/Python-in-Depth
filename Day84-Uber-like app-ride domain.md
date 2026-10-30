@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 84: Uber-like app: ride domain](images/day-84.png)
+![](images/day-084.png)
 
 ## 1. Why this topic matters
 

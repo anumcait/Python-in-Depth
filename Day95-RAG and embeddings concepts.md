@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 95: RAG and embeddings concepts](images/day-95.png)
+![](images/day-095.png)
 
 ## 1. Why this topic matters
 

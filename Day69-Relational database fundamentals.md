@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 69: Relational database fundamentals](images/day-69.png)
+![](images/day-069.png)
 
 ## 1. Why this topic matters
 

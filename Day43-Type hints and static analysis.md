@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 43: Type hints and static analysis](images/day-43.png)
+![](images/day-043.png)
 
 ## 1. Why this topic matters
 

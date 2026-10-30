@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 32: Generators and lazy evaluation](images/day-32.png)
+![](images/day-032.png)
 
 ## 1. Why this topic matters
 

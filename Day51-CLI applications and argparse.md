@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 51: CLI applications and argparse](images/day-51.png)
+![](images/day-051.png)
 
 ## 1. Why this topic matters
 

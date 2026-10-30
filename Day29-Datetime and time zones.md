@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 29: Datetime and time zones](images/day-29.png)
+![](images/day-029.png)
 
 ## 1. Why this topic matters
 

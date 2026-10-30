@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 56: Algorithms and Big-O](images/day-56.png)
+![](images/day-056.png)
 
 ## 1. Why this topic matters
 

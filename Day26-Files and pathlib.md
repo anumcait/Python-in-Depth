@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 26: Files and pathlib](images/day-26.png)
+![](images/day-026.png)
 
 ## 1. Why this topic matters
 

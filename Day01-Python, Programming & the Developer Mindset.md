@@ -77,7 +77,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 01: Python, Programming & the Developer Mindset](images/day-01.png)
+![](images/day-001.png)
 
 ## 1. Why Start With This?
 

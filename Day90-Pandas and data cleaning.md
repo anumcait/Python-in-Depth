@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 90: Pandas and data cleaning](images/day-90.png)
+![](images/day-090.png)
 
 ## 1. Why this topic matters
 

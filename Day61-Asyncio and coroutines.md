@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 61: Asyncio and coroutines](images/day-61.png)
+![](images/day-061.png)
 
 ## 1. Why this topic matters
 

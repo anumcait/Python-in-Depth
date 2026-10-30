@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 59: Concurrency: threads](images/day-59.png)
+![](images/day-059.png)
 
 ## 1. Why this topic matters
 

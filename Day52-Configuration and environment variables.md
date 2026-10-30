@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 52: Configuration and environment variables](images/day-52.png)
+![](images/day-052.png)
 
 ## 1. Why this topic matters
 

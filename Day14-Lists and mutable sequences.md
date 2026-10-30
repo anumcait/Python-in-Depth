@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 14: Lists and mutable sequences](images/day-14.png)
+![](images/day-014.png)
 
 ## 1. Why this topic matters
 

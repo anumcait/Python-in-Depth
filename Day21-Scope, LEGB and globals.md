@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 21: Scope, LEGB and globals](images/day-21.png)
+![](images/day-021.png)
 
 ## 1. Why this topic matters
 

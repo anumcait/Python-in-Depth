@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 70: SQL joins and aggregates](images/day-70.png)
+![](images/day-070.png)
 
 ## 1. Why this topic matters
 

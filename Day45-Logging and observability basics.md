@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 45: Logging and observability basics](images/day-45.png)
+![](images/day-045.png)
 
 ## 1. Why this topic matters
 

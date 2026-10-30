@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 37: Instance, class and static methods](images/day-37.png)
+![](images/day-037.png)
 
 ## 1. Why this topic matters
 

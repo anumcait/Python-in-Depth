@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 85: Uber-like app: fare calculation](images/day-85.png)
+![](images/day-085.png)
 
 ## 1. Why this topic matters
 

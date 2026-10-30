@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 13: Loops: for, while, range](images/day-13.png)
+![](images/day-013.png)
 
 ## 1. Why this topic matters
 

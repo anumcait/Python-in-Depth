@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 94: LLM APIs and prompt engineering](images/day-94.png)
+![](images/day-094.png)
 
 ## 1. Why this topic matters
 

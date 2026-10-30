@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 11: Input, output and conversion](images/day-11.png)
+![](images/day-011.png)
 
 ## 1. Why this topic matters
 

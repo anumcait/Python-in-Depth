@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 36: Object-oriented foundations](images/day-36.png)
+![](images/day-036.png)
 
 ## 1. Why this topic matters
 

@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 79: Security: injection and validation](images/day-79.png)
+![](images/day-079.png)
 
 ## 1. Why this topic matters
 

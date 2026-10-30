@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 49: Mocking and dependency injection](images/day-49.png)
+![](images/day-049.png)
 
 ## 1. Why this topic matters
 

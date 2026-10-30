@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 30: Regular expressions](images/day-30.png)
+![](images/day-030.gif)
 
 ## 1. Why this topic matters
 

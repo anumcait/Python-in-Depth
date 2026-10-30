@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 27: JSON and structured exchange](images/day-27.png)
+![](images/day-027.png)
 
 ## 1. Why this topic matters
 

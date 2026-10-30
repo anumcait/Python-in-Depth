@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 48: Pytest and test organization](images/day-48.png)
+![](images/day-048.png)
 
 ## 1. Why this topic matters
 

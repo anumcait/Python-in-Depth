@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 28: CSV processing](images/day-28.png)
+![](images/day-028.png)
 
 ## 1. Why this topic matters
 

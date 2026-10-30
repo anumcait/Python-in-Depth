@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 71: Transactions and ACID](images/day-71.png)
+![](images/day-071.png)
 
 ## 1. Why this topic matters
 

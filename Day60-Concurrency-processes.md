@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 60: Concurrency: processes](images/day-60.png)
+![](images/day-060.png)
 
 ## 1. Why this topic matters
 

@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 10: Operators and precedence](images/day-10.png)
+![](images/day-010.png)
 
 ## 1. Why this topic matters
 

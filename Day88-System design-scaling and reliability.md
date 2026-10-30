@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 88: System design: scaling and reliability](images/day-88.png)
+![](images/day-088.png)
 
 ## 1. Why this topic matters
 

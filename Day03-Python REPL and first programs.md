@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 03: Python REPL and first programs](images/day-03.png)
+![](images/day-003.png)
 
 ## 1. Why this topic matters
 

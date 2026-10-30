@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 63: REST APIs and resource design](images/day-63.png)
+![](images/day-063.png)
 
 ## 1. Why this topic matters
 

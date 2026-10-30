@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 58: Stacks, queues and heaps](images/day-58.png)
+![](images/day-058.png)
 
 ## 1. Why this topic matters
 

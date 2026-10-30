@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 100: Capstone: production-ready Python platform](images/day-100.png)
+![](images/day-100.jpg)
 
 ## 1. Why this topic matters
 

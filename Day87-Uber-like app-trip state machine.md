@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 87: Uber-like app: trip state machine](images/day-87.png)
+![](images/day-087.png)
 
 ## 1. Why this topic matters
 

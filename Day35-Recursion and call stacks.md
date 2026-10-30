@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 35: Recursion and call stacks](images/day-35.png)
+![](images/day-035.png)
 
 ## 1. Why this topic matters
 

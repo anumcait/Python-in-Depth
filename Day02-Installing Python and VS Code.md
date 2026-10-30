@@ -8,7 +8,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 02: Installing Python and VS Code](images/day-02.png)
+![](images/day-002.png)
 
 ## 1. Why this topic matters
 

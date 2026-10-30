@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 78: Pagination, filtering and sorting](images/day-78.png)
+![](images/day-078.png)
 
 ## 1. Why this topic matters
 

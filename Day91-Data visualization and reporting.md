@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 91: Data visualization and reporting](images/day-91.png)
+![](images/day-091.png)
 
 ## 1. Why this topic matters
 

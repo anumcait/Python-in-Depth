@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 99: AWS deployment and infrastructure](images/day-99.png)
+![](images/day-099.png)
 
 ## 1. Why this topic matters
 

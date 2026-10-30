@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 33: Lambda and higher-order functions](images/day-33.png)
+![](images/day-033.png)
 
 ## 1. Why this topic matters
 

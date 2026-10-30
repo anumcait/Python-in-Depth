@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 64: FastAPI first endpoint](images/day-64.png)
+![](images/day-064.png)
 
 ## 1. Why this topic matters
 

@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 39: Inheritance and composition](images/day-39.png)
+![](images/day-039.png)
 
 ## 1. Why this topic matters
 

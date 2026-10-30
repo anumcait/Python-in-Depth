@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 24: Comprehensions](images/day-24.png)
+![](images/day-024.png)
 
 ## 1. Why this topic matters
 

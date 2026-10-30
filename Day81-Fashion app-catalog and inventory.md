@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 81: Fashion app: catalog and inventory](images/day-81.png)
+![](images/day-081.png)
 
 ## 1. Why this topic matters
 

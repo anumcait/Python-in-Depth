@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 08: Strings and Unicode](images/day-08.png)
+![](images/day-008.png)
 
 ## 1. Why this topic matters
 

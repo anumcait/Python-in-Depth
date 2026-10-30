@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 17: Dictionaries and key-value data](images/day-17.png)
+![](images/day-017.png)
 
 ## 1. Why this topic matters
 

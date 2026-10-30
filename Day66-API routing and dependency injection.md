@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 66: API routing and dependency injection](images/day-66.png)
+![](images/day-066.png)
 
 ## 1. Why this topic matters
 

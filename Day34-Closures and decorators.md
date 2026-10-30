@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 34: Closures and decorators](images/day-34.png)
+![](images/day-034.png)
 
 ## 1. Why this topic matters
 

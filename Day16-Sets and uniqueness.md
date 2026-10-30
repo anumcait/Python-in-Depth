@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 16: Sets and uniqueness](images/day-16.png)
+![](images/day-016.png)
 
 ## 1. Why this topic matters
 

@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 06: Variables, names and object references](images/day-06.png)
+![](images/day-006.png)
 
 ## 1. Why this topic matters
 

@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 83: Fashion app: payments and orders](images/day-83.png)
+![](images/day-083.png)
 
 ## 1. Why this topic matters
 

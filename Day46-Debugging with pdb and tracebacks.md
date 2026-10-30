@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 46: Debugging with pdb and tracebacks](images/day-46.png)
+![](images/day-046.png)
 
 ## 1. Why this topic matters
 

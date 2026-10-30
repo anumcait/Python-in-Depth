@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 53: Context managers](images/day-53.png)
+![](images/day-053.png)
 
 ## 1. Why this topic matters
 

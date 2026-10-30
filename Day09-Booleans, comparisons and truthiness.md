@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 09: Booleans, comparisons and truthiness](images/day-09.png)
+![](images/day-009.png)
 
 ## 1. Why this topic matters
 

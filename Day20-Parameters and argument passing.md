@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 20: Parameters and argument passing](images/day-20.png)
+![](images/day-020.png)
 
 ## 1. Why this topic matters
 

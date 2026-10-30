@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 97: Docker and containerization](images/day-97.png)
+![](images/day-097.png)
 
 ## 1. Why this topic matters
 

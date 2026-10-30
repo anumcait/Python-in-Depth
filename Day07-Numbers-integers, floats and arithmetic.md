@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 07: Numbers: integers, floats and arithmetic](images/day-07.png)
+![](images/day-007.png)
 
 ## 1. Why this topic matters
 

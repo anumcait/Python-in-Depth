@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 19: Functions and return values](images/day-19.png)
+![](images/day-019.png)
 
 ## 1. Why this topic matters
 

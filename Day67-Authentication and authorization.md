@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 67: Authentication and authorization](images/day-67.png)
+![](images/day-067.png)
 
 ## 1. Why this topic matters
 

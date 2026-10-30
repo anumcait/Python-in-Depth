@@ -31,7 +31,7 @@
 
 ## 🗺️ Visual overview
 
-![Lesson map — Day 12: Conditionals: if, elif, else](images/day-12.png)
+![](images/day-012.png)
 
 ## 1. Why this topic matters
 
