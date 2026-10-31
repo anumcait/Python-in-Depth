@@ -2,7 +2,7 @@
 
 ## Installing Python & VS Code: Building a Professional Development Environment
 
-> **Goal:** Set up a clean, robust, reproducible Python development workstation. Master the operating system PATH variable, VS Code configuration, CPython interpreter resolution, and isolated virtual environments before writing complex multi-file applications.
+> **Goal:** Set up an enterprise-grade, clean, reproducible Python development workstation. Master the operating system PATH variable, official installer configuration, VS Code integration, interpreter resolution, and isolated virtual environments.
 
 | | |
 |---|---|
@@ -16,8 +16,8 @@
 
 ## 📑 Contents
 
-1. [Why Start with Environment Architecture?](#1-why-start-with-environment-architecture)
-2. [Visual Architecture: The Professional Python Toolchain](#2-visual-architecture-the-professional-python-toolchain)
+1. [Welcome to Day 02: Why Environment Architecture Matters](#1-welcome-to-day-02-why-environment-architecture-matters)
+2. [Visual Overview: The Modern VS Code Python Experience](#2-visual-overview-the-modern-vs-code-python-experience)
 3. [Installing Python: Platform by Platform](#3-installing-python-platform-by-platform)
 4. [The Critical Checkbox: "Add python.exe to PATH"](#4-the-critical-checkbox-add-pythonexe-to-path)
 5. [Deep Dive: How the Operating System PATH Variable Works](#5-deep-dive-how-the-operating-system-path-variable-works)
@@ -28,80 +28,86 @@
 10. [The Integrated Terminal & Shell Awareness](#10-the-integrated-terminal--shell-awareness)
 11. [Selecting the Active Python Interpreter in VS Code](#11-selecting-the-active-python-interpreter-in-vs-code)
 12. [Virtual Environments (`venv`): First Principles & Why They Exist](#12-virtual-environments-venv-first-principles--why-they-exist)
-13. [Anatomy of a Virtual Environment Directory](#13-anatomy-of-a-virtual-environment-directory)
-14. [Step-by-Step: Creating, Activating & Managing a `.venv`](#14-step-by-step-creating-activating--managing-a-venv)
-15. [Package Management with `pip` and PyPI](#15-package-management-with-pip-and-pypi)
-16. [Freezing and Reproducing Dependencies (`requirements.txt`)](#16-freezing-and-reproducing-dependencies-requirementstxt)
-17. [Professional Project Directory Layout](#17-professional-project-directory-layout)
-18. [First Interactive Debugging Session with Breakpoints](#18-first-interactive-debugging-session-with-breakpoints)
-19. [Real-World Engineering Connection](#19-real-world-engineering-connection)
-20. [Troubleshooting: The 8 Most Common Setup Bugs & Fixes](#20-troubleshooting-the-8-most-common-setup-bugs--fixes)
-21. [Hands-On Practical Labs](#21-hands-on-practical-labs)
-22. [Interview & Senior-Level Questions](#22-interview--senior-level-questions)
-23. [Day 02 Golden Rules & Summary](#23-day-02-golden-rules--summary)
+13. [Managing Environments in VS Code](#13-managing-environments-in-vs-code)
+14. [Anatomy of a Virtual Environment Directory](#14-anatomy-of-a-virtual-environment-directory)
+15. [Step-by-Step: Creating, Activating & Managing a `.venv`](#15-step-by-step-creating-activating--managing-a-venv)
+16. [Package Management with `pip` and PyPI](#16-package-management-with-pip-and-pypi)
+17. [Freezing and Reproducing Dependencies (`requirements.txt`)](#17-freezing-and-reproducing-dependencies-requirementstxt)
+18. [Professional Project Directory Layout](#18-professional-project-directory-layout)
+19. [First Interactive Debugging Session with Breakpoints](#19-first-interactive-debugging-session-with-breakpoints)
+20. [Real-World Engineering Connection](#20-real-world-engineering-connection)
+21. [Troubleshooting: The 8 Most Common Setup Bugs & Fixes](#21-troubleshooting-the-8-most-common-setup-bugs--fixes)
+22. [Hands-On Practical Labs](#22-hands-on-practical-labs)
+23. [Interview & Senior-Level Questions](#23-interview--senior-level-questions)
+24. [Day 02 Golden Rules & Summary](#24-day-02-golden-rules--summary)
 
 ---
 
-## 1. Why Start with Environment Architecture?
+## 1. Welcome to Day 02: Why Environment Architecture Matters
 
-Many tutorials tell beginners:
-> *"Download Python, click next, install VS Code, and start coding."*
+Welcome to Day 02 of **Mission Python 100**!
 
-In software engineering, this approach leads to major problems within days:
-* Package version conflicts between different projects ("Dependency Hell").
-* Scripts running on an unexpected Python version.
-* Code working in the editor but crashing in the terminal with `ModuleNotFoundError`.
-* The infamous error: `'python' is not recognized as an internal or external command`.
+Many beginner tutorials skip over workstation architecture:
+> *"Just download Python, click Next, install VS Code, and start typing code."*
+
+In software engineering, this careless approach leads to major roadblocks within days:
+* Package version collisions between projects (**Dependency Hell**).
+* Code running on an unexpected Python version.
+* Programs working in the editor but crashing in the terminal with `ModuleNotFoundError`.
+* The infamous operating system error: `'python' is not recognized as an internal or external command`.
 
 ```text
 The Amateur Approach:
-Global Python ───> Install Package A (v1.0) ───> Install Package B (requires v2.0) ───> EVERYTHING BREAKS 💥
+Global System Python ──> Install Package A (v1.0) ──> Install Package B (v2.0) ──> EVERYTHING CRASHES 💥
 
-The Professional Approach:
-System Python
+The Professional Engineer Approach:
+Operating System
      │
      ├── Project A Sandbox (.venv_a) ──> FastAPI 0.95 + Pydantic 1.10 (Isolated ✅)
      │
      └── Project B Sandbox (.venv_b) ──> FastAPI 1.0.0 + Pydantic 2.6.0 (Isolated ✅)
 ```
 
-Today, we build a **reproducible, professional development workstation** from first principles.
+Today, we build a **reproducible, professional development workstation** with complete clarity.
 
 ---
 
-## 2. Visual Architecture: The Professional Python Toolchain
+## 2. Visual Overview: The Modern VS Code Python Experience
 
-Before touching installers, let's understand how the components of your workstation interact:
+Welcome to your modern Python workstation. Visual Studio Code paired with the official Python extension provides an integrated environment combining source code editing, real-time type checking, integrated terminal execution, and interactive scientific data exploration:
 
-![Professional Python Development Environment Architecture](images/day-002-setup-architecture.svg)
+![Professional VS Code Python Environment](images/day-002-vscode-hero.png)
 
-### Three Layers of Your Workstation:
-1. **Developer Experience Layer (VS Code & Extensions):** You write code, inspect errors via Pylance, format code automatically, and step through breakpoints.
-2. **Command Resolution Layer (OS Shell & PATH):** Your terminal determines which exact `python.exe` binary executes when you type `python`.
-3. **Runtime & Package Isolation Layer (`.venv`):** An isolated sandbox containing only the specific third-party libraries needed by your current project.
+*Figure 2.1: The complete VS Code Python workstation displaying source editing, interactive execution pane, and live plot rendering.*
+
+### The Three Layers of a Professional Workstation:
+1. **Developer Experience Layer (VS Code & Pylance):** Code authoring, syntax highlighting, type inference, auto-formatting, and interactive debugging.
+2. **Command Resolution Layer (OS Shell & PATH):** How your operating system terminal identifies and executes `python.exe` and `pip.exe`.
+3. **Runtime & Package Isolation Layer (`.venv`):** An isolated sandbox containing only the specific third-party libraries needed by your active project.
 
 ---
 
 ## 3. Installing Python: Platform by Platform
 
-Always use modern **Python 3.12+** (64-bit).
+Always install modern **Python 3.12+** (64-bit).
 
 ### Windows Installation:
 1. Download the official 64-bit installer from [python.org/downloads](https://www.python.org/downloads/).
-2. Run the installer as Administrator.
+2. Right-click the downloaded `.exe` and select **Run as Administrator**.
 3. ⚠️ **MANDATORY:** Check the box at the bottom: **"Add python.exe to PATH"**.
 4. Click **Customize installation**:
    * Ensure `pip`, `tcl/tk and IDLE`, and `Python test suite` are checked.
    * Check **"Install py launcher for all users"**.
 5. Advanced Options:
-   * Check **"Install for all users"** (installs to `C:\Program Files\Python312` or user local app data).
+   * Check **"Install for all users"** (installs to `C:\Program Files\Python312` or local AppData).
    * Check **"Precompile standard library"** for faster startup.
-6. Click **Install**. At the end, click **"Disable path length limit"** (avoids Windows 260-character path errors).
+6. Click **Install**.
+7. When setup finishes, click **"Disable path length limit"** (removes the legacy Windows 260-character path ceiling).
 
 ### macOS Installation:
-macOS comes with a stub system Python that should never be modified. Use **Homebrew**:
+macOS includes an internal stub Python used by system utilities. Never alter system Python. Use **Homebrew**:
 ```bash
-# Install Homebrew if not already installed
+# Install Homebrew if needed
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install modern Python
@@ -124,35 +130,38 @@ python3 --version
 
 Why is this checkbox so critical?
 
-When you type a command in your terminal (such as `python` or `git`), the operating system doesn't know where that program lives on your hard drive. 
+When you run the official Windows installer from python.org, you are greeted with the setup wizard below:
 
-It consults an operating system variable called **PATH** — a semicolon-separated list of folder directories.
+![Official Python Windows Installer Setup Wizard](images/day-002-python-installer.png)
+
+*Figure 4.1: The official Python 64-bit setup wizard showing the critical "Add python.exe to PATH" checkbox at the bottom.*
+
+Notice that by default, the installer leaves **"Add python.exe to PATH"** unchecked!
+
+If you click "Install Now" without checking this box:
+* Python will install into your hard drive, but your operating system will have no record of where it lives.
+* When you open PowerShell or Command Prompt and type `python`, the system fails with:
+  ```text
+  'python' is not recognized as an internal or external command, operable program or batch file.
+  ```
 
 ---
 
 ## 5. Deep Dive: How the Operating System PATH Variable Works
 
-![Understanding the OS PATH Environment Variable](images/day-002-how-path-works.svg)
+When you type a command in your terminal (such as `python` or `git`), the operating system does not perform a full-disk search. 
 
-### What Happens Without PATH:
-```text
-User types: python main.py
-   │
-   ▼
-OS checks: C:\Windows\System32 ────> Not found
-OS checks: C:\Windows ─────────────> Not found
-OS checks: End of PATH reached ────> ❌ CRASH:
-"'python' is not recognized as an internal or external command"
-```
+Instead, it consults an environment variable named **PATH** — an ordered, semicolon-separated list of directories:
 
-### What Happens With PATH Configured:
 ```text
-User types: python main.py
-   │
-   ▼
-OS checks: C:\Users\Admin\AppData\Local\Programs\Python\Python312
-   │
-   └── FOUND python.exe! ──> Launches CPython runtime immediately ✅
+User executes: python app.py
+       │
+       ▼
+1. OS checks: C:\Windows\System32 ────────────> Not found
+2. OS checks: C:\Windows ─────────────────────> Not found
+3. OS checks: C:\Users\Admin\AppData\Local\Programs\Python\Python312
+       │
+       └── FOUND python.exe! ──> Launches CPython runtime immediately ✅
 ```
 
 ### How to Inspect PATH in Your Terminal:
@@ -176,9 +185,9 @@ echo $PATH | tr ':' '\n'
 
 ## 6. The Python Launcher for Windows (`py.exe`)
 
-On Windows, the official installer provides `py.exe` located in `C:\Windows\py.exe`. 
+On Windows, the official installer places `py.exe` into `C:\Windows\py.exe` (which is always in PATH). 
 
-`py.exe` automatically detects all installed Python versions and routes your execution to the desired one:
+`py.exe` detects all installed Python versions and routes your execution to the desired one:
 
 ```powershell
 # Show all installed Python versions on your computer
@@ -201,10 +210,10 @@ print("Running on Python 3.12!")
 
 ## 7. Installing Visual Studio Code (VS Code)
 
-**Visual Studio Code** is the industry-standard code editor for Python developers worldwide:
+**Visual Studio Code** is the industry standard for Python development:
 * Lightweight, modular, and fast.
 * Powered by the **Language Server Protocol (LSP)**.
-* Integrated Git source control and integrated terminal.
+* Integrated Git source control and multi-tab terminal.
 * Industry-leading interactive debugger.
 
 Download and install VS Code from [code.visualstudio.com](https://code.visualstudio.com/).
@@ -217,8 +226,13 @@ During Windows installation, check:
 
 ## 8. The Essential VS Code Extension Ecosystem
 
-Open VS Code, press `Ctrl + Shift + X` (or `Cmd + Shift + X` on macOS), and install these four essential extensions:
+Open VS Code, press `Ctrl + Shift + X` (or `Cmd + Shift + X` on macOS), and install the official Microsoft Python extension suite:
 
+![Official VS Code Python Debugger Extension Card](images/day-002-debugger-extension.png)
+
+*Figure 8.1: Official VS Code Extension Marketplace showing the Python and Python Debugger extensions by Microsoft.*
+
+### The Core Quartet:
 1. **Python (by Microsoft):** Core support for debugging, test discovery, and interpreter selection.
 2. **Pylance (by Microsoft):** High-performance language server delivering type checking, IntelliSense, auto-imports, and docstring hovers.
 3. **Python Debugger (`debugpy`):** Dedicated debugger supporting breakpoints, conditional watches, and call-stack stepping.
@@ -251,10 +265,16 @@ To ensure consistent behavior across team members, configure project settings in
 
 ## 10. The Integrated Terminal & Shell Awareness
 
-VS Code provides an integrated terminal (`Ctrl + ` ` ` or `` Ctrl + Shift + ` ``):
-* On Windows: defaults to **PowerShell** (recommended).
-* On macOS: defaults to **Zsh**.
-* On Linux: defaults to **Bash**.
+VS Code features an integrated terminal (`Ctrl + ` ` ` or `` Ctrl + Shift + ` ``) that automatically connects your shell to the project environment:
+
+![VS Code Integrated Terminal Executing Python via Virtualenv](images/day-002-terminal-output.png)
+
+*Figure 10.1: Clean terminal execution inside VS Code showing the isolated `.venv` Python binary running your script.*
+
+Notice how VS Code executes the script by explicitly invoking the virtual environment interpreter:
+```powershell
+& c:/hello/.venv/Scripts/python.exe c:/hello/hello.py
+```
 
 ### Execution Policy on Windows PowerShell:
 If you see the error:
@@ -269,18 +289,20 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ## 11. Selecting the Active Python Interpreter in VS Code
 
-VS Code allows you to point directly to any Python runtime on your machine:
-1. Press `Ctrl + Shift + P` (`Cmd + Shift + P` on macOS) to open the Command Palette.
-2. Type and select: **`Python: Select Interpreter`**.
-3. Choose the interpreter labeled **`('..venv': venv)`**.
+VS Code allows you to point directly to any Python runtime on your machine via the Command Palette:
 
-Notice the bottom-right status bar in VS Code: it displays `3.12.x ('.venv': venv)`, confirming that your editor is bound to your project sandbox.
+![VS Code Command Palette Select Interpreter](images/day-002-select-interpreter.png)
+
+*Figure 11.1: Typing `Python: Select Interpreter` in the VS Code Command Palette (`Ctrl + Shift + P`).*
+
+1. Press `Ctrl + Shift + P` (`Cmd + Shift + P` on macOS) to open the Command Palette.
+2. Type: **`Python: Select Interpreter`**.
+3. Select the interpreter labeled **`('..venv': venv)`**.
+4. The bottom-right status bar in VS Code updates to display `3.12.x ('.venv': venv)`.
 
 ---
 
 ## 12. Virtual Environments (`venv`): First Principles & Why They Exist
-
-![The Why Behind Virtual Environments: Eliminating Dependency Hell](images/day-002-virtualenv-internals.svg)
 
 ### The Dependency Collision Problem:
 Suppose your company runs two services:
@@ -293,7 +315,22 @@ If both projects use your computer's global Python, running `pip install` on Ser
 
 ---
 
-## 13. Anatomy of a Virtual Environment Directory
+## 13. Managing Environments in VS Code
+
+VS Code automatically detects and categorizes all Python environments present on your machine:
+
+![VS Code Python Environment Manager Tree View](images/day-002-vscode-environment-tree.png)
+
+*Figure 13.1: VS Code Environment Manager grouping Global runtimes, local project virtual environments (`venv`), and Conda environments.*
+
+Notice how VS Code clearly separates:
+* **Global Environments:** System-wide Python installations (e.g., Python 3.10, 3.13).
+* **venv Environments:** Project-specific isolated sandboxes (`.venv`).
+* **Conda Environments:** Data science environments.
+
+---
+
+## 14. Anatomy of a Virtual Environment Directory
 
 A virtual environment is **not** a heavy virtual machine like VMware or Docker. It is simply a directory containing lightweight symbolic links and isolated folders:
 
@@ -323,7 +360,7 @@ Setting `include-system-site-packages = false` ensures that global computer pack
 
 ---
 
-## 14. Step-by-Step: Creating, Activating & Managing a `.venv`
+## 15. Step-by-Step: Creating, Activating & Managing a `.venv`
 
 ### Step 1: Open Terminal in Your Project Directory
 ```powershell
@@ -373,7 +410,7 @@ deactivate
 
 ---
 
-## 15. Package Management with `pip` and PyPI
+## 16. Package Management with `pip` and PyPI
 
 With your `.venv` active, install packages securely from the **Python Package Index (PyPI)**:
 
@@ -393,7 +430,7 @@ pip show requests
 
 ---
 
-## 16. Freezing and Reproducing Dependencies (`requirements.txt`)
+## 17. Freezing and Reproducing Dependencies (`requirements.txt`)
 
 To ensure that any team member or deployment server can recreate your exact environment:
 
@@ -427,7 +464,7 @@ Every dependency installs with identical versions!
 
 ---
 
-## 17. Professional Project Directory Layout
+## 18. Professional Project Directory Layout
 
 Standard industry layout for production Python applications:
 
@@ -478,7 +515,7 @@ venv/
 
 ---
 
-## 18. First Interactive Debugging Session with Breakpoints
+## 19. First Interactive Debugging Session with Breakpoints
 
 Create a verification script named `day02_env_check.py`:
 
@@ -494,32 +531,31 @@ import sys
 
 def verify_environment() -> dict:
     in_virtualenv = sys.prefix != sys.base_prefix
-    
-    env_info = {
+
+    return {
         "python_version": sys.version.split()[0],
         "executable_path": sys.executable,
         "is_virtual_environment": in_virtualenv,
         "base_interpreter": sys.base_prefix,
         "active_prefix": sys.prefix,
-        "cwd": os.getcwd()
+        "cwd": os.getcwd(),
     }
-    return env_info
 
 
 if __name__ == "__main__":
     report = verify_environment()
-    print("=" * 60)
-    print("🚀 PYTHON ENVIRONMENT DIAGNOSTIC REPORT")
-    print("=" * 60)
+    print("=" * 65)
+    print("🚀 PYTHON ENVIRONMENT DIAGNOSTIC REPORT (Day 02)")
+    print("=" * 65)
     for key, val in report.items():
         print(f"  {key:<25}: {val}")
-    print("=" * 60)
+    print("=" * 65)
 
     if report["is_virtual_environment"]:
-        print("✅ SUCCESS: Code is running inside an isolated .venv!")
+        print("  Status: ✅ SUCCESS — Running inside an isolated virtual environment (.venv)!")
     else:
-        print("⚠️ WARNING: Code is running in GLOBAL System Python. Activate .venv!")
-    print("=" * 60)
+        print("  Status: ⚠️ WARNING — Running in global system Python. Activate your .venv!")
+    print("=" * 65)
 ```
 
 ### Step-by-Step Debugging in VS Code:
@@ -535,7 +571,7 @@ if __name__ == "__main__":
 
 ---
 
-## 19. Real-World Engineering Connection
+## 20. Real-World Engineering Connection
 
 How does today's setup directly power the enterprise architectures introduced in Day 01?
 
@@ -547,7 +583,7 @@ How does today's setup directly power the enterprise architectures introduced in
 
 ---
 
-## 20. Troubleshooting: The 8 Most Common Setup Bugs & Fixes
+## 21. Troubleshooting: The 8 Most Common Setup Bugs & Fixes
 
 ### 1. `'python' is not recognized as an internal or external command`
 * **Root Cause:** Python was installed without checking "Add python.exe to PATH".
@@ -583,7 +619,7 @@ How does today's setup directly power the enterprise architectures introduced in
 
 ---
 
-## 21. Hands-On Practical Labs
+## 22. Hands-On Practical Labs
 
 ### Lab A — Verification:
 Run `day02_env_check.py` and confirm that `is_virtual_environment` returns `True`.
@@ -608,7 +644,7 @@ Run `day02_env_check.py` and confirm that `is_virtual_environment` returns `True
 
 ---
 
-## 22. Interview & Senior-Level Questions
+## 23. Interview & Senior-Level Questions
 
 ### 1. Junior Level: What does the PATH environment variable do, and what happens when it is misconfigured?
 > **Answer:** PATH is an operating system environment variable containing an ordered list of directory paths. When an executable name is invoked in a shell without an absolute path, the OS traverses these directories from left to right until it finds a matching binary. If it reaches the end of the list without a match, it raises a command-not-found error.
@@ -624,7 +660,7 @@ Run `day02_env_check.py` and confirm that `is_virtual_environment` returns `True
 
 ---
 
-## 23. Day 02 Golden Rules & Summary
+## 24. Day 02 Golden Rules & Summary
 
 ```text
 ╔══════════════════════════════════════════════════════════════════════════╗
