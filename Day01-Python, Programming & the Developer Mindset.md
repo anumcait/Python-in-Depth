@@ -77,7 +77,7 @@
 
 ## 🗺️ Visual overview
 
-![](images/day-001.png)
+![](file:///C:/Users/Admin/.gemini/antigravity/brain/662a1346-8787-4245-9550-7833062c669c/python_execution_architecture_1793438166632.jpg)
 
 ## 1. Why Start With This?
 
@@ -358,6 +358,10 @@ Later:
 ```text
 value ───→ "Python"
 ```
+
+### 🧠 Visual Architecture: Python Object References & Heap Allocation
+
+![Python Memory Model: Variables as Object References and Dynamic Typing](file:///C:/Users/Admin/.gemini/antigravity/brain/662a1346-8787-4245-9550-7833062c669c/python_memory_model_diagram_1793438241804.jpg)
 
 Python determines object types at runtime.
 
@@ -1457,6 +1461,10 @@ These commands begin building your developer environment awareness.
 
 ---
 
+### 💻 Visual Setup: Professional Environment & Virtualenv Structure
+
+![Python Professional Environment and Virtualenv Architecture](file:///C:/Users/Admin/.gemini/antigravity/brain/662a1346-8787-4245-9550-7833062c669c/python_day02_setup_diagram_1793426905426.jpg)
+
 ## 37. Virtual Environments
 
 As applications become larger, they require dependencies.
@@ -1570,6 +1578,15 @@ Monitoring
 Troubleshooting
     ↓
 Improvement
+```
+
+```mermaid
+flowchart LR
+    A["1. Business Requirement<br/>& Domain Modeling"] --> B["2. System Architecture<br/>& Clean Design"]
+    B --> C["3. Python Implementation<br/>& Clean Code (PEP 8)"]
+    C --> D["4. Automated Testing<br/>& Traceback Debugging"]
+    D --> E["5. Version Control<br/>& CI/CD Pipeline"]
+    E --> F["6. Production Deployment<br/>& Observability Telemetry"]
 ```
 
 This is the mindset we will use throughout Mission Python 100.
