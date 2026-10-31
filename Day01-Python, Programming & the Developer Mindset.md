@@ -77,8 +77,6 @@
 
 ## 🗺️ Visual overview
 
-![How Python Executes a Program](images/python-banner.webp)
-
 ## 1. Why Start With This?
 
 Many Python tutorials begin with:
