@@ -77,7 +77,7 @@
 
 ## 🗺️ Visual overview
 
-![](images/day-001.png)
+![Python Execution Architecture and Runtime Engine](images/day-001.png)
 
 ## 1. Why Start With This?
 
@@ -433,6 +433,17 @@ Application
     ├── map()
     ├── filter()
     └── comprehensions
+```
+
+```mermaid
+graph TD
+    App["Enterprise Python Application"]
+    App --> OOP["Object-Oriented Programming (OOP)"]
+    App --> Func["Procedural & Pure Functions"]
+    App --> FP["Functional Constructs"]
+    OOP --> O1["User, Product, Cart, Order Models"]
+    Func --> F1["calculate_tax(), validate_order()"]
+    FP --> FP1["map(), filter(), comprehensions"]
 ```
 
 The goal is not to force everything into one paradigm.
@@ -1460,10 +1471,6 @@ which python
 These commands begin building your developer environment awareness.
 
 ---
-
-### 💻 Visual Setup: Professional Environment & Virtualenv Structure
-
-![Python Professional Environment and Virtualenv Architecture](images/day-001-dev-environment.png)
 
 ## 37. Virtual Environments
 
