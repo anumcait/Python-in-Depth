@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #0f172a; }
+      .title { fill: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 20px; font-weight: bold; }
+      .subtitle { fill: #94a3b8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 13px; }
+      .column-card { fill: #1e293b; stroke: #334155; stroke-width: 1.5; rx: 12; ry: 12; }
+      .column-card-highlight { fill: #1e293b; stroke: #38bdf8; stroke-width: 2.5; rx: 12; ry: 12; }
+      .col-header { fill: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: bold; }
+      .col-sub { fill: #94a3b8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; }
+      .box { fill: #0f172a; stroke: #475569; stroke-width: 1.5; rx: 6; ry: 6; }
+      .box-highlight { fill: #0f172a; stroke: #38bdf8; stroke-width: 2; rx: 6; ry: 6; }
+      .box-text { fill: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: bold; }
+      .box-sub { fill: #94a3b8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 10px; }
+      .arrow { stroke: #64748b; stroke-width: 2; fill: none; }
+      .arrow-highlight { stroke: #38bdf8; stroke-width: 2; fill: none; }
+      .tag-pro { fill: #22c55e; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 11px; }
+      .tag-con { fill: #f87171; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 11px; }
+    </style>
+    <marker id="arrow-gray" markerWidth="6" markerHeight="5" refX="5" refY="2.5" orient="auto">
+      <polygon points="0 0, 6 2.5, 0 5" fill="#64748b" />
+    </marker>
+    <marker id="arrow-blue" markerWidth="6" markerHeight="5" refX="5" refY="2.5" orient="auto">
+      <polygon points="0 0, 6 2.5, 0 5" fill="#38bdf8" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="480" class="bg" rx="16" ry="16"/>
+
+  <!-- Header -->
+  <text x="480" y="38" text-anchor="middle" class="title">Compiled vs Interpreted vs Python (Hybrid Model)</text>
+  <text x="480" y="60" text-anchor="middle" class="subtitle">Why Python is both compiled and interpreted under the hood</text>
+
+  <!-- Column 1: Compiled Languages -->
+  <g transform="translate(40, 85)">
+    <rect width="270" height="365" class="column-card" />
+    <text x="135" y="30" text-anchor="middle" class="col-header">1. Purely Compiled</text>
+    <text x="135" y="48" text-anchor="middle" class="col-sub">C / C++ / Rust / Go</text>
+
+    <!-- Step 1: Source -->
+    <rect x="35" y="65" width="200" height="42" class="box" />
+    <text x="135" y="85" text-anchor="middle" class="box-text">Source Code (.c)</text>
+    <text x="135" y="99" text-anchor="middle" class="box-sub">Human-written syntax</text>
+
+    <line x1="135" y1="107" x2="135" y2="125" class="arrow" marker-end="url(#arrow-gray)" />
+
+    <!-- Step 2: Compiler -->
+    <rect x="35" y="125" width="200" height="42" class="box" />
+    <text x="135" y="145" text-anchor="middle" class="box-text">Compiler (GCC / Clang)</text>
+    <text x="135" y="159" text-anchor="middle" class="box-sub">Compiles directly to machine code</text>
+
+    <line x1="135" y1="167" x2="135" y2="185" class="arrow" marker-end="url(#arrow-gray)" />
+
+    <!-- Step 3: Binary -->
+    <rect x="35" y="185" width="200" height="42" class="box" />
+    <text x="135" y="205" text-anchor="middle" class="box-text">Native Binary (.exe)</text>
+    <text x="135" y="219" text-anchor="middle" class="box-sub">Direct 0s and 1s for target CPU</text>
+
+    <line x1="135" y1="227" x2="135" y2="245" class="arrow" marker-end="url(#arrow-gray)" />
+
+    <!-- Step 4: CPU -->
+    <rect x="35" y="245" width="200" height="38" class="box" stroke="#22c55e" />
+    <text x="135" y="269" text-anchor="middle" class="box-text" fill="#22c55e">Direct Hardware CPU</text>
+
+    <!-- Notes -->
+    <text x="35" y="315" class="tag-pro">✔ Ultra fast execution</text>
+    <text x="35" y="335" class="tag-con">✖ Recompile for every OS/platform</text>
+  </g>
+
+  <!-- Column 2: Pure Interpreted -->
+  <g transform="translate(345, 85)">
+    <rect width="270" height="365" class="column-card" />
+    <text x="135" y="30" text-anchor="middle" class="col-header">2. Purely Interpreted</text>
+    <text x="135" y="48" text-anchor="middle" class="col-sub">Bash / Early BASIC / Shell</text>
+
+    <!-- Step 1: Source -->
+    <rect x="35" y="65" width="200" height="42" class="box" />
+    <text x="135" y="85" text-anchor="middle" class="box-text">Source Script (.sh)</text>
+    <text x="135" y="99" text-anchor="middle" class="box-sub">Human-written commands</text>
+
+    <line x1="135" y1="107" x2="135" y2="145" class="arrow" marker-end="url(#arrow-gray)" />
+
+    <!-- Step 2: Interpreter -->
+    <rect x="35" y="145" width="200" height="60" class="box" />
+    <text x="135" y="170" text-anchor="middle" class="box-text">Interpreter</text>
+    <text x="135" y="186" text-anchor="middle" class="box-sub">Reads line 1 → executes</text>
+    <text x="135" y="198" text-anchor="middle" class="box-sub">Reads line 2 → executes</text>
+
+    <line x1="135" y1="205" x2="135" y2="245" class="arrow" marker-end="url(#arrow-gray)" />
+
+    <!-- Step 3: CPU -->
+    <rect x="35" y="245" width="200" height="38" class="box" stroke="#22c55e" />
+    <text x="135" y="269" text-anchor="middle" class="box-text" fill="#22c55e">Direct Hardware CPU</text>
+
+    <!-- Notes -->
+    <text x="35" y="315" class="tag-pro">✔ Immediate execution</text>
+    <text x="35" y="335" class="tag-con">✖ Very slow for repetitive loops</text>
+  </g>
+
+  <!-- Column 3: Python (The Hybrid) -->
+  <g transform="translate(650, 85)">
+    <rect width="270" height="365" class="column-card-highlight" />
+    <text x="135" y="30" text-anchor="middle" class="col-header" fill="#38bdf8">3. Python (CPython Hybrid)</text>
+    <text x="135" y="48" text-anchor="middle" class="col-sub" fill="#38bdf8">Compiled to Bytecode + VM</text>
+
+    <!-- Step 1: Source -->
+    <rect x="35" y="65" width="200" height="38" class="box-highlight" />
+    <text x="135" y="84" text-anchor="middle" class="box-text">Source Code (app.py)</text>
+    <text x="135" y="96" text-anchor="middle" class="box-sub">Developer writes code</text>
+
+    <line x1="135" y1="103" x2="135" y2="120" class="arrow-highlight" marker-end="url(#arrow-blue)" />
+
+    <!-- Step 2: Compiler -->
+    <rect x="35" y="120" width="200" height="38" class="box-highlight" />
+    <text x="135" y="138" text-anchor="middle" class="box-text" fill="#fde047">CPython Compiler</text>
+    <text x="135" y="151" text-anchor="middle" class="box-sub">AST &amp; bytecode generation</text>
+
+    <line x1="135" y1="158" x2="135" y2="175" class="arrow-highlight" marker-end="url(#arrow-blue)" />
+
+    <!-- Step 3: Bytecode -->
+    <rect x="35" y="175" width="200" height="38" class="box-highlight" />
+    <text x="135" y="193" text-anchor="middle" class="box-text">Bytecode (app.pyc)</text>
+    <text x="135" y="206" text-anchor="middle" class="box-sub">Platform-independent instructions</text>
+
+    <line x1="135" y1="213" x2="135" y2="230" class="arrow-highlight" marker-end="url(#arrow-blue)" />
+
+    <!-- Step 4: PVM -->
+    <rect x="35" y="230" width="200" height="38" class="box-highlight" />
+    <text x="135" y="248" text-anchor="middle" class="box-text" fill="#38bdf8">Python Virtual Machine (PVM)</text>
+    <text x="135" y="261" text-anchor="middle" class="box-sub">Interprets bytecode on target OS</text>
+
+    <line x1="135" y1="268" x2="135" y2="285" class="arrow-highlight" marker-end="url(#arrow-blue)" />
+
+    <!-- Step 5: CPU -->
+    <rect x="35" y="285" width="200" height="34" class="box" stroke="#22c55e" />
+    <text x="135" y="306" text-anchor="middle" class="box-text" fill="#22c55e">Hardware CPU</text>
+
+    <!-- Notes -->
+    <text x="35" y="340" class="tag-pro" font-weight="bold">✔ Portable: Runs anywhere without rewrite</text>
+  </g>
+</svg>
