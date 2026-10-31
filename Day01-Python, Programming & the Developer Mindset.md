@@ -77,7 +77,7 @@
 
 ## 🗺️ Visual overview
 
-![](file:///C:/Users/Admin/.gemini/antigravity/brain/662a1346-8787-4245-9550-7833062c669c/python_execution_architecture_1793438166632.jpg)
+![](images/day-001.png)
 
 ## 1. Why Start With This?
 
@@ -361,7 +361,7 @@ value ───→ "Python"
 
 ### 🧠 Visual Architecture: Python Object References & Heap Allocation
 
-![Python Memory Model: Variables as Object References and Dynamic Typing](file:///C:/Users/Admin/.gemini/antigravity/brain/662a1346-8787-4245-9550-7833062c669c/python_memory_model_diagram_1793438241804.jpg)
+![Python Memory Model: Variables as Object References and Dynamic Typing](images/day-001-memory-model.png)
 
 Python determines object types at runtime.
 
@@ -1463,7 +1463,7 @@ These commands begin building your developer environment awareness.
 
 ### 💻 Visual Setup: Professional Environment & Virtualenv Structure
 
-![Python Professional Environment and Virtualenv Architecture](file:///C:/Users/Admin/.gemini/antigravity/brain/662a1346-8787-4245-9550-7833062c669c/python_day02_setup_diagram_1793426905426.jpg)
+![Python Professional Environment and Virtualenv Architecture](images/day-001-dev-environment.png)
 
 ## 37. Virtual Environments
 
