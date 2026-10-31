@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #0f172a; }
+      .title { fill: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 20px; font-weight: bold; }
+      .subtitle { fill: #94a3b8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 13px; }
+      .card { fill: #1e293b; stroke: #334155; stroke-width: 1.5; rx: 12; ry: 12; }
+      .card-title { fill: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: bold; }
+      .tag { fill: #38bdf8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 11px; font-weight: bold; }
+      .code-box { fill: #0f172a; stroke: #475569; stroke-width: 1; rx: 6; ry: 6; }
+      .code-text { fill: #38bdf8; font-family: 'Consolas', 'Courier New', monospace; font-size: 13px; }
+      .code-comment { fill: #94a3b8; font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; }
+      .arrow { stroke: #38bdf8; stroke-width: 2.5; fill: none; }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#38bdf8" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="400" class="bg" rx="16" ry="16"/>
+
+  <!-- Title -->
+  <text x="480" y="38" text-anchor="middle" class="title">What Is Programming? (From Requirement to Output)</text>
+  <text x="480" y="60" text-anchor="middle" class="subtitle">Converting Human Business Requirements into Working Software</text>
+
+  <!-- Card 1: Input -->
+  <g transform="translate(60, 90)">
+    <rect width="240" height="260" class="card" />
+    <text x="120" y="35" text-anchor="middle" class="tag">STEP 1</text>
+    <text x="120" y="65" text-anchor="middle" class="card-title">1. Input (Data)</text>
+    <text x="120" y="90" text-anchor="middle" class="subtitle">Raw business values</text>
+
+    <rect x="20" y="115" width="200" height="75" class="code-box" />
+    <text x="30" y="142" class="code-comment"># Employee salary</text>
+    <text x="30" y="165" class="code-text">monthly_salary = 50000</text>
+
+    <text x="120" y="220" text-anchor="middle" class="subtitle" font-size="12">Given to the program</text>
+    <text x="120" y="238" text-anchor="middle" class="subtitle" font-size="12">from user, database, or API</text>
+  </g>
+
+  <!-- Arrow 1 -> 2 -->
+  <line x1="315" y1="220" x2="365" y2="220" class="arrow" marker-end="url(#arrowhead)" />
+
+  <!-- Card 2: Process (Algorithm) -->
+  <g transform="translate(380, 90)">
+    <rect width="240" height="260" class="card" stroke="#38bdf8" stroke-width="2" />
+    <text x="120" y="35" text-anchor="middle" class="tag">STEP 2</text>
+    <text x="120" y="65" text-anchor="middle" class="card-title">2. Process (Logic)</text>
+    <text x="120" y="90" text-anchor="middle" class="subtitle">Rules &amp; Calculations</text>
+
+    <rect x="20" y="115" width="200" height="75" class="code-box" />
+    <text x="30" y="142" class="code-comment"># 12 months in a year</text>
+    <text x="30" y="165" class="code-text">annual = monthly * 12</text>
+
+    <text x="120" y="220" text-anchor="middle" class="subtitle" font-size="12">Business logic converts</text>
+    <text x="120" y="238" text-anchor="middle" class="subtitle" font-size="12">input into useful information</text>
+  </g>
+
+  <!-- Arrow 2 -> 3 -->
+  <line x1="635" y1="220" x2="685" y2="220" class="arrow" marker-end="url(#arrowhead)" />
+
+  <!-- Card 3: Output (Result) -->
+  <g transform="translate(700, 90)">
+    <rect width="200" height="260" class="card" />
+    <text x="100" y="35" text-anchor="middle" class="tag">STEP 3</text>
+    <text x="100" y="65" text-anchor="middle" class="card-title">3. Output (Result)</text>
+    <text x="100" y="90" text-anchor="middle" class="subtitle">Actionable response</text>
+
+    <rect x="20" y="115" width="160" height="75" class="code-box" />
+    <text x="30" y="142" class="code-comment"># Display to user</text>
+    <text x="30" y="165" class="code-text" fill="#22c55e">600000</text>
+
+    <text x="100" y="220" text-anchor="middle" class="subtitle" font-size="12">Printed to screen or</text>
+    <text x="100" y="238" text-anchor="middle" class="subtitle" font-size="12">returned to client</text>
+  </g>
+</svg>

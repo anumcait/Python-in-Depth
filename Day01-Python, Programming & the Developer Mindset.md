@@ -77,7 +77,7 @@
 
 ## 🗺️ Visual overview
 
-![Python Execution Architecture and Runtime Engine](images/day-001.png)
+![How Python Executes a Program](images/day-001-execution.svg)
 
 ## 1. Why Start With This?
 
@@ -182,6 +182,8 @@ print(annual_salary)
 ```
 
 This is the beginning of software engineering.
+
+![What Is Programming? (From Requirement to Output)](images/day-001-programming-flow.svg)
 
 ---
 
@@ -361,7 +363,7 @@ value ───→ "Python"
 
 ### 🧠 Visual Architecture: Python Object References & Heap Allocation
 
-![Python Memory Model: Variables as Object References and Dynamic Typing](images/day-001-memory-model.png)
+![Python Memory Model: Variables as Object References and Dynamic Typing](images/day-001-memory-model.svg)
 
 Python determines object types at runtime.
 
